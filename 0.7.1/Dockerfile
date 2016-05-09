@@ -1,2 +1,3 @@
-FROM b.gcr.io/tensorflow/tensorflow:0.7.1
+FROM tensorflow/tensorflow:0.7.1
+
 

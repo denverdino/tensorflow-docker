@@ -1,1 +1,1 @@
-FROM b.gcr.io/tensorflow/tensorflow:latest
+FROM tensorflow/tensorflow:0.8.0
