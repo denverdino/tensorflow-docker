@@ -1,0 +1,1 @@
+FROM tensorflow/tensorflow:0.8.0-devel-gpu
