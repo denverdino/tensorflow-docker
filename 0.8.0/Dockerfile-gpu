@@ -1,6 +1,6 @@
 FROM nvidia/cuda:7.5-cudnn4-devel
 MAINTAINER Craig Citro <craigcitro@google.com>
-COPY sources.list /etc/apt/sources.list
+RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/' /etc/apt/sources.list
 COPY pip.conf /root/.pip/pip.conf
 
 # Pick up some TF dependencies
