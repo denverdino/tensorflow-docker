@@ -1,7 +1,6 @@
-FROM nvidia/cuda:7.5-cudnn4-devel
+FROM nvidia/cuda:7.5-cudnn4-runtime
+
 MAINTAINER Craig Citro <craigcitro@google.com>
-COPY sources.list /etc/apt/sources.list
-COPY pip.conf /root/.pip/pip.conf
 
 # Pick up some TF dependencies
 RUN apt-get update && apt-get install -y \
